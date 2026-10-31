@@ -11,7 +11,7 @@ def hist_equal(image):
     
     return image_equalized.reshape(image.shape).astype(np.uint8)
 
-image = img.imread("Foto.Flat.`jpg")
+image = img.imread("Foto.Flat.jpg")
 
 result = hist_equal(image)
 
